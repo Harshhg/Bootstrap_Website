@@ -57,3 +57,20 @@ margin-bottom:5px;
     position: relative;
     padding-bottom: 20px;
 }
+.bfa_button
+{
+	display: inline-block;
+	background-color: #56A1D8;
+
+}
+.bfa_text
+{
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: white;
+	padding: 5px 10px 0px 10px;
+
+}
