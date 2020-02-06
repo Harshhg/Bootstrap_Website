@@ -61,16 +61,97 @@ margin-bottom:5px;
 {
 	display: inline-block;
 	background-color: #56A1D8;
+	margin-bottom: 20px;
 
 }
-.bfa_text
+.bfa_head
 {
-	font-family: Nunito;
+	font-family: 'Nunito', sans-serif;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 300;
 	font-size: 20px;
 	line-height: 30px;
 	color: white;
 	padding: 5px 10px 0px 10px;
 
 }
+.bfa_text
+{
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;	 
+}
+.mybox
+{
+	border-bottom: 1px solid;
+	border-color: white;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	background-color: white;
+}
+.mybox ul
+{
+list-style-image: url('../images/list.png');
+
+}
+
+.carousel-inner img {
+      width: 50%;
+      height: 100%;
+  }
+
+  .parents_pic
+  {
+  	text-align: center;
+  	padding-bottom: 20px;
+  }
+  .parents_pic img
+  {
+	height:126px;
+  	width:126px;
+  	border-radius: 50%;
+  }
+  .academies_pic
+  {
+     max-width: 20%;
+  	padding-top: 30px;
+  	padding-bottom: 30px;
+  }
+  .academies_pic img
+  {
+	height:50px;
+  	width: 50px;  	 
+  }
+  .academies_cards
+  {
+  	  
+  	background-image: url('../images/academies_cards.png');
+  }
+  .academies_cards p
+  {
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	 color: #7E7E7E;
+   }
+.academies_cards h6
+   {
+   	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+   }
+  .academies_profile img
+  {
+	height:40px;
+  	width:40px;
+  	border-radius: 50%;
+  }
+  .cards
+  {
+  	max-width: 30%;
+  	background-image: url('../images/cardsbg.png');
+  }
