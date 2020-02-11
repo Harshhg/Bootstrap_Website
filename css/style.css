@@ -7,13 +7,11 @@ color:black;
 
 .para_head
 {
-font-size: 24px;
-    line-height: 38px;
-    max-width: 415px;
+	font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 15px;
-    position: relative;
+    text-align: left;
 }
 
 .dn
@@ -23,6 +21,7 @@ font-size: 24px;
 	border-color: #56A1D8;
 	border-radius: 20px;
 	text-align: center;
+	box-shadow: 0px 15px 20px   rgba(162,162,162, 0.5);
 }
 .pwu
 {
@@ -33,6 +32,7 @@ font-size: 24px;
 	border-radius: 20px;
 	text-align: center;
 	padding-bottom: 50px;
+	box-shadow: 0px 15px 20px  rgba(103,186,245, 0.5);
 }
 
 .footerlist 
@@ -51,8 +51,7 @@ margin-bottom:5px;
 .footer_head
 {
 	font-size: 16px;
-    line-height: 40px;
-    max-width: 415px;
+     
     font-weight: bold;
     position: relative;
     padding-bottom: 20px;
@@ -70,7 +69,7 @@ margin-bottom:5px;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 20px;
-	line-height: 30px;
+	 
 	color: white;
 	padding: 5px 10px 0px 10px;
 
@@ -81,7 +80,8 @@ margin-bottom:5px;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 18px;
-	line-height: 30px;	 
+	padding-right: 10px;
+	  
 }
 .mybox
 {
@@ -91,10 +91,9 @@ margin-bottom:5px;
 	border-radius: 20px;
 	background-color: white;
 }
-.mybox ul
+ ul
 {
 list-style-image: url('../images/list.png');
-
 }
 
 .carousel-inner img {
@@ -115,7 +114,7 @@ list-style-image: url('../images/list.png');
   }
   .academies_pic
   {
-     max-width: 20%;
+     
   	padding-top: 30px;
   	padding-bottom: 30px;
   }
@@ -152,6 +151,9 @@ list-style-image: url('../images/list.png');
   }
   .cards
   {
-  	max-width: 30%;
+  	 
   	background-image: url('../images/cardsbg.png');
   }
+
+
+ 
